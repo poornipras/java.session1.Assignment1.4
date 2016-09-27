@@ -1,0 +1,17 @@
+
+//Program to print the alphabets using ascii values form 65 to 90
+
+public class Ascii
+ {
+	public static void main(String[] args)
+	{
+		char alpha;
+		System.out.println("Ascii values are:");
+		for(int i=65;i<=90;i++)
+		{
+			
+		System.out.println(+i+" -"+(char)i);
+	}
+		}
+
+}
